@@ -1,3 +1,43 @@
-console.log("hello!");
+const content = document.querySelector("#content");
 
-console.log("hello!");
+
+function home() {
+    console.log("hello!");
+}
+
+
+home()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
