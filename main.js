@@ -1,1 +1,1 @@
-console.log("hello!"),console.log("hello!");
+document.querySelector("#content"),console.log("hello!");
