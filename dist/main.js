@@ -1,1 +1,1 @@
-document.querySelector("#content"),console.log("hello!");
+!function(){const e=document.querySelector("#content"),t=document.createElement("div"),n=document.createElement("div"),o=document.createElement("h1"),a=document.createElement("p");o.textContent="Welcome to this restaurant!",a.textContent="We are a restaurant that loves everything about food, and we try our best so you leave this place loving it as much as we do!",t.appendChild(o),n.appendChild(a),e.appendChild(t),e.appendChild(n),console.log("hello!")}();
