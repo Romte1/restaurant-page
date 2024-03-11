@@ -9,10 +9,12 @@ function home() {
     const bodyTitle = document.createElement('p');
     const bodySchedule = document.createElement('h2');
     const days = document.createElement('div');
+    const bodyFindUs = document.createElement('h2');
 
     headH1.textContent = 'Welcome to this restaurant!';
     bodyTitle.textContent = 'We are a restaurant that loves everything about food, and we try our best so you leave this place loving it as much as we do!';
     bodySchedule.textContent = 'Schedule';
+    bodyFindUs.textContent = 'Where to find us';
     days.innerHTML = 
     `<p>Mon 9am-10pm</p>
     <p>Thu 9am-10pm</p>
@@ -26,6 +28,7 @@ function home() {
     contentBody.appendChild(bodyTitle);
     contentBody.appendChild(bodySchedule);
     contentBody.appendChild(days);
+    contentBody.appendChild(bodyFindUs);
 
     
     content.appendChild(contentHead);
