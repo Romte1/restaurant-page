@@ -1,5 +1,6 @@
 import pageLoad from './pageLoad';
 import pageContentReset from './pageContentReset';
+import createContactPage from './contact';
 
 const addButtonFunctions = () => {
     const home  = document.querySelector('.home');
@@ -9,6 +10,18 @@ const addButtonFunctions = () => {
     home.addEventListener('click', () => {
         pageContentReset();
         pageLoad();
+
+    })
+
+    menu.addEventListener('click', () => {
+        pageContentReset();
+        
+
+    })
+
+    about.addEventListener('click', () => {
+        pageContentReset();
+        createContactPage();
 
     })
 
