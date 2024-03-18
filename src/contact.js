@@ -7,17 +7,24 @@ const createContactPage = () => {
     const generalInquiries = document.createElement('h2');
     const pContactUs = document.createElement('p');
     const pPhone = document.createElement('p');
+    const pEmail = document.createElement('p');
 
     contactUs.textContent = 'Contact Us';
     pContactUs.textContent = "Thank you for your interest in this restaurant!. We're thrilled to hear from you!";
     phone.textContent = 'Phone:';
     pPhone.textContent = '(555) 123-4567';
+    email.textContent = 'Email:';
+    pEmail.textContent = 'info@thisrestaurant.com';
+
 
 
     content.appendChild(contactUs);
     content.appendChild(pContactUs);
     content.appendChild(phone);
     content.appendChild(pPhone);
+    content.appendChild(email);
+    content.appendChild(pEmail);
+
 
 
 
