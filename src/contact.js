@@ -8,6 +8,7 @@ const createContactPage = () => {
     const pContactUs = document.createElement('p');
     const pPhone = document.createElement('p');
     const pEmail = document.createElement('p');
+    const pReservations = document.createElement('p');
 
     contactUs.textContent = 'Contact Us';
     pContactUs.textContent = "Thank you for your interest in this restaurant!. We're thrilled to hear from you!";
@@ -15,6 +16,9 @@ const createContactPage = () => {
     pPhone.textContent = '(555) 123-4567';
     email.textContent = 'Email:';
     pEmail.textContent = 'info@thisrestaurant.com';
+    reservations.textContent = 'Reservation:';
+    pReservations.textContent ='For reservations, please call us during business hours or use our online reservation system.';
+
 
 
 
@@ -24,6 +28,8 @@ const createContactPage = () => {
     content.appendChild(pPhone);
     content.appendChild(email);
     content.appendChild(pEmail);
+    content.appendChild(reservations);
+    content.appendChild(pReservations);
 
 
 
