@@ -10,6 +10,8 @@ const createContactPage = () => {
     const pEmail = document.createElement('p');
     const pReservations = document.createElement('p');
     const pGeneralInquiries = document.createElement('p');
+    const lblName = document.createElement('label');
+    const iptName = document.createElement('input');
 
     contactUs.textContent = 'Contact Us';
     pContactUs.textContent = "Thank you for your interest in this restaurant!. We're thrilled to hear from you!";
@@ -26,6 +28,10 @@ const createContactPage = () => {
     generalInquiries.textContent = 'General Inquiries:';
     pGeneralInquiries.textContent = "For general inquiries, feedback, or special requests, please fill out the form below, and we'll get back to you as soon as possible.";
 
+    lblName.textContent = 'Name:';
+    lblName.setAttribute('for', 'name');
+    iptName.setAttribute('id', 'name');
+
 
 
 
@@ -39,6 +45,8 @@ const createContactPage = () => {
     content.appendChild(pReservations);
     content.appendChild(generalInquiries);
     content.appendChild(pGeneralInquiries);
+    content.appendChild(lblName);
+    content.appendChild(iptName);
 
 
 
