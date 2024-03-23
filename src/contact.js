@@ -12,6 +12,8 @@ const createContactPage = () => {
     const pGeneralInquiries = document.createElement('p');
     const lblName = document.createElement('label');
     const iptName = document.createElement('input');
+    const lblEmail = document.createElement('label');
+    const iptEmail = document.createElement('input');
 
     contactUs.textContent = 'Contact Us';
     pContactUs.textContent = "Thank you for your interest in this restaurant!. We're thrilled to hear from you!";
@@ -32,6 +34,9 @@ const createContactPage = () => {
     lblName.setAttribute('for', 'name');
     iptName.setAttribute('id', 'name');
 
+    lblEmail.textContent = 'Email:';
+    lblEmail.setAttribute('for', 'email');
+    iptEmail.setAttribute('id', 'email');
 
 
 
@@ -47,6 +52,8 @@ const createContactPage = () => {
     content.appendChild(pGeneralInquiries);
     content.appendChild(lblName);
     content.appendChild(iptName);
+    content.appendChild(lblEmail);
+    content.appendChild(iptEmail);
 
 
 
