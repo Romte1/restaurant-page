@@ -10,12 +10,14 @@ const createContactPage = () => {
     const pEmail = document.createElement('p');
     const pReservations = document.createElement('p');
     const pGeneralInquiries = document.createElement('p');
+    const contactForm = document.createElement('form');
     const lblName = document.createElement('label');
     const iptName = document.createElement('input');
     const lblEmail = document.createElement('label');
     const iptEmail = document.createElement('input');
     const lblPhone = document.createElement('label');
     const iptPhone = document.createElement('input');
+    const textAreaAddInfo = document.createElement('textarea');
 
     contactUs.textContent = 'Contact Us';
     pContactUs.textContent = "Thank you for your interest in this restaurant!. We're thrilled to hear from you!";
@@ -44,6 +46,8 @@ const createContactPage = () => {
     lblPhone.setAttribute('for', 'phone');
     iptPhone.setAttribute('id', 'phone');
 
+    textAreaAddInfo.setAttribute('placeholder', 'Place here anything you wanna tell us!');
+
 
 
     content.appendChild(contactUs);
@@ -56,12 +60,16 @@ const createContactPage = () => {
     content.appendChild(pReservations);
     content.appendChild(generalInquiries);
     content.appendChild(pGeneralInquiries);
-    content.appendChild(lblName);
-    content.appendChild(iptName);
-    content.appendChild(lblEmail);
-    content.appendChild(iptEmail);
-    content.appendChild(lblPhone);
-    content.appendChild(iptPhone);
+
+    contactForm.appendChild(lblName);
+    contactForm.appendChild(iptName);
+    contactForm.appendChild(lblEmail);
+    contactForm.appendChild(iptEmail);
+    contactForm.appendChild(lblPhone);
+    contactForm.appendChild(iptPhone);
+    contactForm.appendChild(textAreaAddInfo);
+
+    content.appendChild(contactForm);
 
 
 
