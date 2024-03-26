@@ -18,6 +18,7 @@ const createContactPage = () => {
     const lblPhone = document.createElement('label');
     const iptPhone = document.createElement('input');
     const textAreaAddInfo = document.createElement('textarea');
+    const submitButton = document.createElement('button');
 
     contactUs.textContent = 'Contact Us';
     pContactUs.textContent = "Thank you for your interest in this restaurant!. We're thrilled to hear from you!";
@@ -48,6 +49,8 @@ const createContactPage = () => {
 
     textAreaAddInfo.setAttribute('placeholder', 'Place here anything you wanna tell us!');
 
+    submitButton.textContent = 'Submit!';
+
 
 
     content.appendChild(contactUs);
@@ -68,6 +71,7 @@ const createContactPage = () => {
     contactForm.appendChild(lblPhone);
     contactForm.appendChild(iptPhone);
     contactForm.appendChild(textAreaAddInfo);
+    contactForm.appendChild(submitButton);
 
     content.appendChild(contactForm);
 
