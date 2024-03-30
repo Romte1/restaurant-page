@@ -3,9 +3,11 @@ const createMenuPage = () => {
     const title = document.createElement('h1');
     const beverages = document.createElement('h2');
     const beveragesOptions = document.createElement('p');
+    const dishes = document.createElement('h2');
+    const dishesOptions = document.createElement('p');
 
     title.textContent = 'Menu';
-    beverages.textContent = 'Beverages'
+    beverages.textContent = 'Beverages';
     beveragesOptions.innerHTML = `
 <div class="section">
   <h3>Hot Beverages:</h3>
@@ -56,11 +58,33 @@ const createMenuPage = () => {
       <li>Protein Power: $5.00</li>
     </ul>
   </ul>
-</div>`
+</div>`;
+    dishes.textContent = 'Dishes';
+    dishesOptions.innerHTML = `
+    <div class="section">
+      <h3>Appetizers:</h3>
+      <ul>
+        <li>Soup of the Day - $5.99</li>
+        <li>Garden Salad - Mixed greens, tomatoes, cucumbers, balsamic vinaigrette - $6.99</li>
+        <li>Garlic Bread - Toasted baguette with garlic butter - $4.99</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h3>Main Courses:</h3>
+      <ul>
+        <li>Grilled Chicken Breast - Served with steamed vegetables and choice of side - $10.99</li>
+        <li>Spaghetti Bolognese - Homemade meat sauce, served with garlic bread - $12.99</li>
+        <li>Vegetarian Stir-Fry - Assorted vegetables stir-fried in a savory sauce, served with rice - $11.99</li>
+      </ul>
+    </div>
+
+    `;
 
     content.appendChild(title);
     content.appendChild(beverages);
     content.appendChild(beveragesOptions);
+    content.appendChild(dishes);
+    content.appendChild(dishesOptions);
 
 
 }
