@@ -5,6 +5,8 @@ const createMenuPage = () => {
     const beveragesOptions = document.createElement('p');
     const dishes = document.createElement('h2');
     const dishesOptions = document.createElement('p');
+    const desserts = document.createElement('h2');
+    const dessertsOptions = document.createElement('p');
 
     title.textContent = 'Menu';
     beverages.textContent = 'Beverages';
@@ -59,6 +61,7 @@ const createMenuPage = () => {
     </ul>
   </ul>
 </div>`;
+
     dishes.textContent = 'Dishes';
     dishesOptions.innerHTML = `
     <div class="section">
@@ -80,11 +83,49 @@ const createMenuPage = () => {
 
     `;
 
+    desserts.textContent = 'Desserts';
+    dessertsOptions.innerHTML = `
+    <div class="section">
+    <h3>Ice Creams</h3>
+    <ul>
+      <li>Classic Vanilla - $3.99</li>
+      <li>Chocolate - $3.99</li>
+      <li>Strawberry - $3.99</li>
+      <li>Mint Chocolate Chip - $4.49</li>
+      <li>Cookies and Cream - $4.49</li>
+      <li>Rocky Road - $4.49</li>
+      <li>Pistachio - $4.49</li>
+      <li>Coffee - $4.49</li>
+      <li>Butter Pecan - $4.49</li>
+      <li>Neapolitan (per serving with all three flavors) - $4.49</li>
+    </ul>
+    
+    <h3>Other Desserts</h3>
+    <ul>
+      <li>Chocolate Fudge Cake - $5.99 per slice</li>
+      <li>Strawberry Cheesecake - $4.99 per slice</li>
+      <li>Tiramisu - $6.99 per serving</li>
+      <li>Apple Pie - $3.49 per slice</li>
+      <li>Banoffee Pie - $5.49 per slice</li>
+      <li>Red Velvet Cupcake - $2.49 each</li>
+      <li>Chocolate Chip Cookies - $1.99 for 3 cookies</li>
+      <li>Fruit Salad - $4.99 per serving</li>
+      <li>Brownie Sundae - $7.99</li>
+      <li>Key Lime Pie - $4.49 per slice</li>
+      <li>Peach Cobbler - $5.99 per serving</li>
+      <li>Creme Brulee - $6.49 per serving</li>
+      <li>Chocolate Mousse - $4.99 per serving</li>
+      <li>Raspberry Sorbet - $3.99 per scoop</li>
+    </ul>
+  </div>`
+
     content.appendChild(title);
     content.appendChild(beverages);
     content.appendChild(beveragesOptions);
     content.appendChild(dishes);
     content.appendChild(dishesOptions);
+    content.appendChild(desserts);
+    content.appendChild(dessertsOptions);
 
 
 }
