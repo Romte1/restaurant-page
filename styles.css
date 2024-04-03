@@ -13,7 +13,7 @@ body {
   font-family: 'Montserrat';
   display:flex;
   flex-direction: column;
-  background-color: rgb(236, 230, 222);
+  background-color: rgb(233, 233, 233);
 }
 
 header {
@@ -22,13 +22,27 @@ header {
 }
 
 #content {
-  background-color: rgb(215, 224, 224);
+  background-color: rgb(238, 220, 197);
   padding:32px;
   max-width: 1200px;
   width: 100%;
   align-self: center;
   flex:1;
   
+  h1 {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  p {
+    text-align: center;
+    margin-bottom: 8px;
+  }
 }
 
 nav {
@@ -36,10 +50,11 @@ nav {
   justify-content: center;
   gap:16px;
   padding: 16px;
-  background-color: rgb(255, 239, 239);
+  background-color: rgb(228, 222, 222);
   align-items: center;
   max-width: 1200px;
   width: 100%;
+  border-bottom: 2px solid rgb(172, 167, 167);
 
 
   button {
