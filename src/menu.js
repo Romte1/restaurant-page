@@ -12,7 +12,7 @@ const createMenuPage = () => {
     beverages.textContent = 'Beverages';
     beveragesOptions.innerHTML = `
 <div class="section">
-  <h3>Hot Beverages:</h3>
+  <h3>Hot Beverages</h3>
   <ul>
     <li>Coffee</li>
     <ul>
@@ -38,7 +38,7 @@ const createMenuPage = () => {
 </div>
 
 <div class="section">
-  <h3>Cold Beverages:</h3>
+  <h3>Cold Beverages</h3>
   <ul>
     <li>Iced Coffees</li>
     <ul>
@@ -65,7 +65,7 @@ const createMenuPage = () => {
     dishes.textContent = 'Dishes';
     dishesOptions.innerHTML = `
     <div class="section">
-      <h3>Appetizers:</h3>
+      <h3>Appetizers</h3>
       <ul>
         <li>Soup of the Day - $5.99</li>
         <li>Garden Salad - Mixed greens, tomatoes, cucumbers, balsamic vinaigrette - $6.99</li>
@@ -73,7 +73,7 @@ const createMenuPage = () => {
       </ul>
     </div>
     <div class="section">
-      <h3>Main Courses:</h3>
+      <h3>Main Courses</h3>
       <ul>
         <li>Grilled Chicken Breast - Served with steamed vegetables and choice of side - $10.99</li>
         <li>Spaghetti Bolognese - Homemade meat sauce, served with garlic bread - $12.99</li>
