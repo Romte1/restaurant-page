@@ -19,6 +19,7 @@ const createContactPage = () => {
     const iptPhone = document.createElement('input');
     const textAreaAddInfo = document.createElement('textarea');
     const submitButton = document.createElement('button');
+    const divName = document.createElement('div');
 
     contactUs.textContent = 'Contact Us';
     pContactUs.textContent = "Thank you for your interest in this restaurant!. We're thrilled to hear from you!";
@@ -64,8 +65,10 @@ const createContactPage = () => {
     content.appendChild(generalInquiries);
     content.appendChild(pGeneralInquiries);
 
-    contactForm.appendChild(lblName);
-    contactForm.appendChild(iptName);
+    divName.appendChild(lblName);
+    divName.appendChild(iptName);
+
+    contactForm.appendChild(divName);
     contactForm.appendChild(lblEmail);
     contactForm.appendChild(iptEmail);
     contactForm.appendChild(lblPhone);
