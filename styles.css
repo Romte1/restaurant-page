@@ -74,7 +74,7 @@ header {
     text-align: center;
     margin-bottom: 16px;
     padding:4px;
-    border-bottom: double rgb(216, 91, 69);
+    border-bottom: double rgb(181 48 26);
     width: 200px;
     align-self: center;
   }
@@ -108,12 +108,12 @@ form {
       padding-left: 10px;
 
       &:hover{
-        border-color: rgb(216, 91, 69);
+        border-color: rgb(181 48 26);
         transition: 0.3s;
       }
 
       &:focus {
-        border-color: rgb(216, 91, 69);
+        border-color: rgb(181 48 26);
       }
     }
 
@@ -132,18 +132,18 @@ form {
     outline: none;
 
     &:hover{
-      border-color: rgb(216, 91, 69);
+      border-color: rgb(181 48 26);
       transition: 0.3s;
     }
 
     &:focus {
-      border-color: rgb(216, 91, 69);
+      border-color: rgb(181 48 26);
     }
   }
   button {
     border:none;
     border-radius:30px;
-    background-color: rgb(216, 91, 69);
+    background-color: rgb(181 48 26);
     color:beige;
     font-weight: 700;
     padding: 8px 16px;
@@ -166,17 +166,17 @@ nav {
   justify-content: center;
   gap:16px;
   padding: 16px;
-  background-color: rgb(228, 222, 222);
+  background-color: rgb(48, 45, 45);
   align-items: center;
   max-width: 1200px;
   width: 100%;
-  border-bottom: 2px solid rgb(172, 167, 167);
+  border-bottom: 5px solid rgb(143, 117, 117);
 
 
   button {
     border:none;
     border-radius:30px;
-    background-color: rgb(216, 91, 69);
+    background-color: rgb(181 48 26);
     color:beige;
     font-weight: 700;
     padding: 8px 16px;
