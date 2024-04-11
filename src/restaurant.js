@@ -40,7 +40,6 @@ function home() {
     content.appendChild(contentHead);
     content.appendChild(contentBody);
 
-    console.log("hello!");
 }
 
 export default home
