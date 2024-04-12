@@ -46,7 +46,6 @@ header {
   .section {
     display:flex;
     flex-direction: column;
-
   }
   
   h1 {
@@ -100,6 +99,7 @@ form {
 
     input {
       width:235px;
+      font-size:16px;
       height: 32px;
       margin-top:4px;
       border-radius: 5px;
@@ -116,12 +116,6 @@ form {
         border-color: rgb(181 48 26);
       }
     }
-
-
-
-    label {
-    }
-
   }
   textarea {
     font-size: 16px;
@@ -130,6 +124,7 @@ form {
     resize:vertical;
     border-radius: 5px;
     outline: none;
+    font-family: 'Montserrat';
 
     &:hover{
       border-color: rgb(181 48 26);

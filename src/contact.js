@@ -54,6 +54,15 @@ const createContactPage = () => {
 
     submitButton.textContent = 'Submit!';
 
+    contactForm.addEventListener('submit', (event) => {
+        event.preventDefault()
+        iptName.value='';
+        iptEmail.value = '';
+        iptPhone.value = '';
+        textAreaAddInfo.value = '';
+        alert('Thanks for sending us this message, we appreciate your interest and will take it into account')
+    })
+
 
 
     content.appendChild(contactUs);
