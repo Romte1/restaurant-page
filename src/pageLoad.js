@@ -2,10 +2,14 @@ import createPage from './restaurant';
 import addButtonFunctions from './tabs';
 
 
-function page() {
+function initialPage() {
     createPage();
     addButtonFunctions();
 
+}
+
+function homePage(){
+    createPage();
 }
 
 
@@ -18,4 +22,4 @@ function page() {
 
 
 
-export default page;
+export default {initialPage, homePage};

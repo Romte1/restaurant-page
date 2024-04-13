@@ -10,7 +10,7 @@ const addButtonFunctions = () => {
 
     home.addEventListener('click', () => {
         pageContentReset();
-        pageLoad();
+        pageLoad.homePage();
 
     })
 

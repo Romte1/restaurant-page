@@ -1,5 +1,5 @@
 import pageLoad from './pageLoad';
-pageLoad();
+pageLoad.initialPage();
 
 // function home() {
 //     const content = document.querySelector("#content");
